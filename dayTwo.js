@@ -11,3 +11,7 @@ const countries = [
     'JAPAN',
     'KENYA'
   ]
+
+function createArrayOfArrays(countries) {
+    
+}
