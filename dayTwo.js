@@ -12,6 +12,10 @@ const countries = [
     'KENYA'
   ]
 
-function createArrayOfArrays(countries) {
-    
+function createArrayOfArrays(nations) {
+    const dataOfNations = nations.map(nation => {
+        return (
+            
+        )
+    })
 }
