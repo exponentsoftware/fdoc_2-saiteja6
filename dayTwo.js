@@ -15,7 +15,7 @@ const countries = [
 function createArrayOfArrays(nations) {
     const dataOfNations = nations.map(nation => {
         return (
-            `${nation.charAt(0).toUpperCase()}${nation.substring(1).toLowerCase()}, ${nation.substring(0, 3)}`
+            `${nation.charAt(0).toUpperCase()}${nation.substring(1).toLowerCase()}, ${nation.substring(0, 3)}, ${nation.length}`
         )
     })
     return dataOfNations
