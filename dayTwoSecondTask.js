@@ -44,8 +44,11 @@ const users = [
     ];
 
     function greaterThan85(learners) {
-        const goodScores = learners.filter(learner => {
-
-        })
+        const goodScores = learners.filter(learner => 
+            // console.log(learners[1].scores)
+                learner.scores > 85
+        )
         return goodScores
     }
+
+    console.log(greaterThan85(users))
